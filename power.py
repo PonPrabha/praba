@@ -1,2 +1,2 @@
-n,k=map(int,input().split())
-print(pow(n,k))
+N,K=map(int,input().split())
+print(pow(N,K))
