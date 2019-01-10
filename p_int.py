@@ -4,4 +4,4 @@ for nu in range(n+1,k):
         if nu%i==0:
             break
     else:
-        print(nu)
+        print(nu,end=" ")
