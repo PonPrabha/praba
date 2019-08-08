@@ -1,5 +1,5 @@
 n=input()
-if(n>='a' and n<='z'):
+if n.isalpha():
     print("Alphabet")
 else:
     print("No")
