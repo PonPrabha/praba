@@ -3,9 +3,9 @@ v="aeiou"
 s=n.casefold()
 if n.isalpha():
         if s in v:
-                print("V")
+                print("Vowel")
         else:
-                print("cons")
+                print("Consonent")
 else:
         print("invalid")
         
