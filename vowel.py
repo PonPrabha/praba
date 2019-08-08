@@ -1,16 +1,11 @@
 n=input()
-if (n>='a' and n<='z'):
-    if n=='a':
-        print("vowels")
-    elif n=='e':
-        print("vowels")
-    elif n=='i':
-        print("vowels")
-    elif n=='o':
-        print("vowels")
-    elif n=='u':
-        print("vowel")
-    else:
-        print("Consonant")
+v="aeiou"
+s=n.casefold()
+if n.isalpha():
+        if s in v:
+                print("V")
+        else:
+                print("cons")
 else:
-    print("invalid")
+        print("invalid")
+        
