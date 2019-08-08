@@ -5,7 +5,7 @@ if n.isalpha():
         if s in v:
                 print("Vowel")
         else:
-                print("Consonent")
+                print("Consonant")
 else:
         print("invalid")
         
