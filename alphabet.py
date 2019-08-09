@@ -1,3 +1,4 @@
+#prabha
 n=input()
 if n.isalpha():
     print("Alphabet")
